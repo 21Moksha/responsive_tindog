@@ -1,0 +1,171 @@
+#title
+{
+    background-color: #ff4d4d;
+    color: #fff;
+}
+.container-fluid
+{
+    padding: 3% 14%;
+}
+h1
+{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+body
+{
+    font-family: "Montserrat-Black";
+} 
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:   relative;
+    bottom: 220px;
+}
+.fea
+{
+    text-align: center;
+    padding: 3%;
+}
+h2
+{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+h3
+{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+p
+{
+    color: #8f8f8f;
+}
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4d4d;
+}
+.nav-item
+{
+    padding: 0 15px;
+}
+.nav-link
+{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+.Download-Button
+{
+    margin: 5% 3% 5% 0%;
+}
+.Phone-img
+{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* testimonials */
+#testimonials
+{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials_img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+/* press */
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press_logo
+{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* pricing-section */
+#pricing
+{
+    padding: 100px
+}
+.card
+{
+    padding: 3% 3%;
+    text-align: center;
+}
+@media (max-width: 1028px)
+{
+    .Phone-img
+    {
+        width: 60%;
+        position: static;
+    }
+    h1
+    {
+        text-align: center;
+    }
+}
+
+/* call to say */
+#cta
+{
+    background-color: #ff4d4d;
+    padding-top:  50px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.cta_h3
+{
+    text-align: center;
+    font-family: "Montserrat-Black";
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* copyright */
+#footer
+{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer
+{
+    margin: 20px;
+}
+.footer_par
+{
+    font-size: 1.3rem;
+}
